@@ -11,6 +11,10 @@ set incsearch
 set ideajoin
 set relativenumber
 set number
+set idearefactormode=keep
+set clipboard+=unnamed
+set NERDTree
+
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq

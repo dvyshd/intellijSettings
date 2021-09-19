@@ -18,6 +18,7 @@ set NERDTree
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
+imap jj <Esc>
 
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t

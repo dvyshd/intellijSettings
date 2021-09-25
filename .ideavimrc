@@ -14,6 +14,12 @@ set number
 set idearefactormode=keep
 set clipboard+=unnamed
 set NERDTree
+set surround
+set highlightedyank
+set vim-paragraph-motion
+set ignorecase
+set smartcase
+set showmode
 
 
 " Don't use Ex mode, use Q for formatting.
@@ -31,5 +37,7 @@ imap jj <Esc>
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
 
+nnoremap ,d :action Debug<CR>
+nnoremap ,s :action Stop<CR>
 
 " Find more examples here: https://jb.gg/share-ideavimrc
